@@ -1,0 +1,57 @@
+# =======================================
+# Python
+# =======================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# =======================================
+# Configuración local / claves
+# =======================================
+# Archivo con claves API
+*.env
+*.env.*
+!.env.example  # mantenemos el de ejemplo
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# =======================================
+# Archivos de sistema
+# =======================================
+.DS_Store
+Thumbs.db
+
+# =======================================
+# Logs y cache
+# =======================================
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.cache/
+.mypy_cache/
+.pyre/
+__snapshots__/
+
+# =======================================
+# Jupyter / Notebooks
+# =======================================
+.ipynb_checkpoints
+
+# =======================================
+# IDE / Editor configs
+# =======================================
+.vscode/
+.idea/
+*.swp
