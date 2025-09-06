@@ -42,7 +42,7 @@ mathtutor-web/
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/mathtutor-web.git
+   git clone https://github.com/albert-bq/mathtutor-web.git
    cd mathtutor-web
    ```
 
